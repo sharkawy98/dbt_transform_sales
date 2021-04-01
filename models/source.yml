@@ -5,3 +5,7 @@ sources:
     tables:
       - name: raw_orders
       - name: raw_customers
+
+  - name: paying
+    tables:
+      - name: raw_payment
