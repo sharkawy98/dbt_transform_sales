@@ -5,7 +5,8 @@
 select 
     l.order_id,
     l.customer_id,
-    r.price
+    l.order_date,
+    coalesce(r.price, 0) as price
 from
     {{ ref('stg_orders') }} l
 join
