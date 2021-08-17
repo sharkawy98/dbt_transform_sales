@@ -13,5 +13,5 @@ select
     amount / 100 as price,
     created as created_at
 from
-    {{ source('paying', 'raw_payment') }}
+    {{ source('payment', 'raw_payments') }}
     

@@ -6,6 +6,6 @@ sources:
       - name: raw_orders
       - name: raw_customers
 
-  - name: paying
+  - name: payment
     tables:
-      - name: raw_payment
+      - name: raw_payments
